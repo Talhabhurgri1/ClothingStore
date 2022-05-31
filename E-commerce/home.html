@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerece</title>
+
+    <!--Swipper css class -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- NAV BAR -->
+
+    <header>
+
+        <div class="logo">
+            <img src="./img/outfitters.png" height="40px">
+        </div>
+        <nav>
+
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="#">About us</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--BODY CONTENT-->
+    <section class="">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img class=" d-block " src="./img/img1.jpg " alt="First slide ">
+                </div>
+                <div class="carousel-item ">
+                    <img class="d-block " src="./img/img2.jpg " alt="Second slide ">
+                </div>
+                <div class="carousel-item ">
+                    <img class="d-block " src="./img/img3.jpg " alt="Third slide ">
+                </div>
+            </div>
+            <a class="carousel-control-prev " href="#carouselExampleIndicators " role="button " data-slide="prev ">
+                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                <span class="sr-only ">Previous</span>
+            </a>
+            <a class="carousel-control-next " href="#carouselExampleIndicators " role="button " data-slide="next ">
+                <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                <span class="sr-only ">Next</span>
+            </a>
+        </div>
+
+        <!--NEW ARRIVAL CONTENT-->
+        <div class=" arrival-section">
+            <div class="row d-flex justify-content-center ">
+                <h1 class="display-2  my-4 " style="font-family: 'Grape Nuts', cursive; font-weight: bold;">New Arrival</h1>
+            </div>
+            <!--CARD BODY-->
+
+            <div class="container swiper mySwiper ">
+                <div class="content swiper-wrapper ">
+                    <div class="card swiper-slide ">
+                        <img src="./img/shirt1.png" alt="Avatar">
+                        <div class="container-card ">
+                            <h4><b>Black Shirt</b></h4>
+                            <div class="addtocard-button">
+                                <a href="product.html"><img class="addtocart" src="./img/addtocart.png "></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./img/shirt2.png" alt="Avatar">
+                        <div class="container-card ">
+                            <h4><b>White Shirt</b></h4>
+                            <div class="addtocard-button">
+                                <a href="product.html"><img class="addtocart" src="./img/addtocart.png "></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="./img/shirt3.png" alt="Avatar">
+                        <div class="container-card ">
+                            <h4><b>Navy Blue Shirt</b></h4>
+                            <div class="addtocard-button">
+                                <a href="product.html"><img class="addtocart" src="./img/addtocart.png "></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide ">
+                        <img src="./img/shirt1.png " alt="Avatar ">
+                        <div class="container-card ">
+                            <h4><b>Black Shirt</b></h4>
+                            <div class="addtocard-button">
+                                <a href="product.html"><img class="addtocart" src="./img/addtocart.png "></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide ">
+                        <img src="./img/shirt1.png " alt="Avatar ">
+                        <div class="container-card ">
+                            <h4><b>Black Shirt</b></h4>
+                            <div class="addtocard-button">
+                                <a href="product.html"><img class="addtocart" src="./img/addtocart.png "></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide ">
+                        <img src="./img/shirt1.png " alt="Avatar ">
+                        <div class="container-card ">
+                            <h4><b>Black Shirt</b></h4>
+                            <div class="addtocard-button d-flex justify-content-evenly">
+                                <a href="product.html"><img class="addtocart" src="./img/addtocart.png "></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next "></div>
+                <div class="swiper-button-prev "></div>
+                <div class="swiper-pagination "></div>
+            </div>
+            <!-- Slider main container -->
+        </div>
+    </section>
+
+
+    <div class="container-fluid  text-center shopNow">
+
+        <h2 class="title mt-3">
+            <a href="products.html" id="shopNow">
+                <span class="title-word title-word-1">Shop</span>
+                <span class="title-word title-word-2">Now</span>
+                <span class="title-word title-word-3">--</span>
+                <span class="title-word title-word-4">></span>
+            </a>
+        </h2>
+
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid" style="background-color:#ccc; ">
+            <div class="row d-flex align-items-center justify-content-around ">
+                <div class="logo p-4">
+                    <img src="./img/outfitters.png" height="40px">
+                </div>
+                <form>
+                    <label for="exampleFormControlInput1" class="form-label" style="font-size:30px; font-weight:bolder;">Subscribe</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </form>
+
+            </div>
+            <div class=" title row d-flex justify-content-around mt-5">
+                <div class="socialmedia d-flex">
+                    <h1><span class="title-word title-word-1">Follow</span> <span class="title-word title-word-2">us</span> <span class="title-word title-word-3"> on</span> <span class="title-word title-word-4">--></span> <img src="./img/twitter.png" height="50px">                        <img src="./img/instagram.png"> <img src="./img/linkedin.png"> <img src="./img/facebook.png"></h1>
+
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- FOOTER -->
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js "></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js "></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper ", {
+            slidesPerView: 3,
+            spaceBetween: 100,
+            slidesPerGroup: 3,
+            loop: true,
+            allowTouchMove: true,
+
+            loopFillGroupWithBlank: false,
+
+
+            navigation: {
+                nextEl: ".swiper-button-next ",
+                prevEl: ".swiper-button-prev ",
+            },
+
+        });
+    </script>
+</body>
+
+</html>

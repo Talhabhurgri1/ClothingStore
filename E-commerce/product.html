@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerece</title>
+
+    <!--Swipper css class -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <!-- NAV BAR -->
+
+    <header>
+        <div class="logo">
+            <img src="./img/outfitters.png" height="40px">
+        </div>
+        <nav>
+
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Log out</a> <img src="./img/user.png"></li>
+
+
+
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <span id="rateMe1"></span>
+    </div>
+    <!-- PRODUCT -->
+    <section class="product">
+        <div class="container  shadow p-3 mb-5 bg-body rounded ">
+
+            <div class="row d-flex align-items-center ">
+                <img src="./img/shirt1.png" class="img-thumbnail product-img" alt="...">
+                <div class="col  justify-content-center">
+                    <h6 class="display-6 my-5"><span>Black T-Shirt</span></h6>
+                    <h6 class="display-6 my-5"><span>Reviews 0</span>
+
+                    </h6>
+                    <h6 class="display-6 my-5"><span>Price 13$</span>
+                    </h6>
+
+                    <div class="size d-flex">
+                        <h6 class="display-6 my-2 mx-2"><span>Size</span></h6>
+                        <button class="btn btn-info size-btn mx-2" id="small">SMALL</button>
+                        <button class="btn btn-info size-btn mx-2" id="medium">MEDIUM</button>
+                        <button class="btn btn-info size-btn " id="large">LARGE</button>
+                    </div>
+
+                    <h6 class="display-6 my-5"><span>Quantity </span>
+                        <button class="btn btn-info" id="increaseQuantity">+</button>
+                        <span id="num">0</span>
+                        <button class="btn btn-info" id="decreaseQuantity">-</button></h6>
+                    <div class="d-flex">
+                        <button class="btn btn-info size-btn mx-2" id="buynow" data-toggle="modal" data-target="#exampleModalLong">Buy Now</button>
+                        <button class="btn btn-primary size-btn " id="addtocart">Add to Cart</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!--PRODUCT DETAILS-->
+
+    <section class="product-detail">
+        <div class="container">
+            <h1 class="text-center display-3 text-white py-4">Product Details</h1>
+            <br>
+            <div class="row d-flex p-5 ">
+                <img src="./img/shirt1.png" class="img-thumbnail product-img" alt="...">
+                <div class="col d-flex align-items-center text-white">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quidem libero quasi quam unde suscipit reprehenderit tempora nihil cupiditate, rem obcaecati perferendis inventore provident earum nesciunt, dicta sint doloribus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+
+
+    <!-- Button trigger modal -->
+    <!-- Button trigger modal -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Delivery Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+
+
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" class="form-control" id="fullname" aria-describedby="fullname" placeholder="Enter Your first and lastname">
+                            <small id="fullname" class="form-text text-muted">Enter your first and last name</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" class="form-control" id="phonenumber" aria-describedby="phonenumber" placeholder="Phone Number">
+                            <small id="phonenumber" class="form-text text-muted">Phone Number</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Building / House No / Floor / Street</label>
+                            <input type="text" class="form-control" id="address" aria-describedby="address" placeholder="Enter Your full Home Address">
+                            <small id="address" class="form-text text-muted">Please enter</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Colony / Suburb / Locality / Landmark</label>
+                            <input type="text" class="form-control" id="address" aria-describedby="address" placeholder="Enter Your full Home Address">
+                            <small id="address" class="form-text text-muted">Please enter</small>
+                        </div>
+
+
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid" style="background-color:#ccc; ">
+            <div class="row d-flex align-items-center justify-content-around ">
+                <div class="logo p-4">
+                    <img src="./img/outfitters.png" height="40px">
+                </div>
+                <form>
+                    <label for="exampleFormControlInput1" class="form-label" style="font-size:30px; font-weight:bolder;">Subscribe</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </form>
+
+            </div>
+            <div class=" title row d-flex justify-content-around mt-5">
+                <div class="socialmedia d-flex">
+                    <h1><span class="title-word title-word-1">Follow</span> <span class="title-word title-word-2">us</span> <span class="title-word title-word-3"> on</span> <span class="title-word title-word-4">--></span> <img src="./img/twitter.png" height="50px">                        <img src="./img/instagram.png"> <img src="./img/linkedin.png"> <img src="./img/facebook.png"></h1>
+
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="./js/product.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

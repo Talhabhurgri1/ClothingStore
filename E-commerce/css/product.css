@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: #DBF1EE;
+    padding-top: 15px;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 40px;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 100px;
+}
+
+.nav_links {
+    text-decoration: none;
+    list-style: none;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    color: black;
+    list-style: none;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+.product-detail {
+    background-color: rgb(71, 69, 69);
+}
+
+.product-img {
+    background-color: #cbad26;
+}
+
+.modal {
+    width: 800px !important;
+    margin: 0 auto;
+}
